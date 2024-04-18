@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="gallery">
+    <div class="galleryses">
         <a href="./img/img1.png" data-caption="Image caption">
             <img src="./img/img1.png" alt="First image">
         </a>
@@ -32,12 +32,15 @@
     </div>
 
 
-    
     <script>
-        window.addEventListener('load', function() {
-          baguetteBox.run('.gallery');
+        window.addEventListener('load', function () {
+            baguetteBox.run('.galleryses');
         });
-        </script>
+    </script>
+
+baguetteBox.run('.gallery', {
+    // Custom options
+});
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" integrity="sha512-7KzSt4AJ9bLchXCRllnyYUDjfhO2IFEWSa+a5/3kPGQbr+swRTorHQfyADAhSlVHCs1bpFdB1447ZRzFyiiXsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
