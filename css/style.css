@@ -1,18 +1,19 @@
 .section-img {
     background-color: black;
-    height: 800px;
-    width: 3000px;
+   
+  
 }
 
 .container{
     width: 1200px;
     display: flex;
     overflow-x: scroll;
+    margin-left:100px;
 }
 
-/* .container::-webkit-scrollbar {
+.container::-webkit-scrollbar {
     display: none;
-} */
+}
 
 .gallery {
     width: 100%;
@@ -26,4 +27,11 @@
 .img {
     width: 100%;
     height: 100%;
+}
+
+
+.strit {
+   cursor: pointer;
+   width: 70px;
+   margin: 50px;
 }
