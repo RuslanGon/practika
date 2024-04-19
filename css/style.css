@@ -59,12 +59,12 @@
 
   .element-animation {
     margin: 2rem 0;
-    font-size: 3rem;
+    font-size: 100px;
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(50%);
 
   }
-  .element-animation.element-show {
+  .element-animation.show {
     opacity: 1;
     transition: all 1s;
     transform: translateY(0%);
