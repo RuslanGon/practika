@@ -37,3 +37,6 @@ if (animeItems.length > 0) {
     animOnScroll();
   }, 400);
 }
+
+
+// https://www.youtube.com/watch?v=kupwmF72Plo
