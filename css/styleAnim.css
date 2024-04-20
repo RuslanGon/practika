@@ -11,6 +11,11 @@
     отдельно добовляем этот класс для анимации
 } */
 
+/* .main{
+    margin: 0 auto;
+    width: 1140px;
+} */
+
 .main-div {
     display: flex;
     flex-direction: column;
@@ -52,6 +57,7 @@
 
 .text-paragraf {
     font-size: 50px;
+    overflow: hidden;
 }
 
 .second-title{
