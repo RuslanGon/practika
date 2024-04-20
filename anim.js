@@ -19,7 +19,9 @@ if (animeItems.length > 0) {
       ) {
         animeItem.classList.add("active");
       } else {
-        animeItem.classList.remove("active");
+        if(!animeItem.classList.contains('anime-nohide')){
+          animeItem.classList.remove("active");
+        }
       }
     }
   }
