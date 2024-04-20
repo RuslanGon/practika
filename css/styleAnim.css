@@ -3,4 +3,12 @@
     text-align: center;
     padding: 100px;
     transform: translate(0px, 70%);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.anim-text._active {
+    transform: 0;
+    opacity: 1;
+
 }
