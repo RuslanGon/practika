@@ -38,3 +38,21 @@
 .text-paragraf {
     font-size: 50px;
 }
+
+.second-title{
+text-align: center;
+color: blue;
+font-size: 70px;
+
+}
+
+.anime-show {
+    transform: translate(0px, 100%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.anime-show.active, .active .anime-show {
+opacity: 1;
+transform: translate(0px, 0px);
+}
