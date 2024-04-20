@@ -1,0 +1,6 @@
+.anim-text {
+    font-size: 70px;
+    text-align: center;
+    padding: 100px;
+    transform: translate(0px, 70%);
+}
