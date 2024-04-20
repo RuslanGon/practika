@@ -1,6 +1,5 @@
 let animeItems = document.querySelectorAll(".anime-items");
 
-
 if (animeItems.length > 0) {
   window.addEventListener("scroll", animOnScroll);
   function animOnScroll() {
@@ -14,10 +13,10 @@ if (animeItems.length > 0) {
       if (animeItemHeight > window.innerHeight) {
         animeItemPoint = window.innerHeight - window.innerHeight / animeStart;
       }
-      if ((
+      if (
         pageYOffset > animeItemOffset - animeItemPoint &&
         pageYOffset < animeItemOffset + animeItemHeight
-      )) {
+      ) {
         animeItem.classList.add("active");
       } else {
         animeItem.classList.remove("active");
@@ -26,13 +25,13 @@ if (animeItems.length > 0) {
   }
   function offset(el) {
     const rect = el.getBoundingClientRect();
-    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    const scrollLeft =
+      window.pageXOffset || document.documentElement.scrollLeft;
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
   }
-  animOnScroll();
+
+  setTimeout(() => {
+    animOnScroll();
+  }, 400);
 }
-
-
-
-
