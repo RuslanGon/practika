@@ -1,6 +1,7 @@
 let animeItems = document.querySelectorAll(".anime-items");
 
 if (animeItems.length > 0) {
+    window.addEventListener('scroll', animOnScroll)
   function animOnScroll() {
     for (let i = 0; i > animeItems.length; i++) {
       const animeItem = animeItems[i];
@@ -26,4 +27,5 @@ if (animeItems.length > 0) {
       return { top: react.top + scrollTop, left: react.left + scrollLeft };
     }
   }
+  animOnScroll()
 }
