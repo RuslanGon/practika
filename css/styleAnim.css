@@ -33,10 +33,12 @@
     flex-direction: column;
     /* text-align: center; */
     width: 2000px;
+    background-color: rgba(82, 74, 74, 0.318);
 }
 
 .text-paragraf {
     font-size: 50px;
+    
 }
 
 .second-title{
@@ -55,4 +57,20 @@ font-size: 70px;
 .anime-show.active, .active .anime-show {
 opacity: 1;
 transform: translate(0px, 0px);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list {
+justify-content: center;
+display: flex;
+gap: 150px;
+}
+
+.item{
+    text-align: center;
+    border: solid black 3px;
+   padding: 15px;
 }
