@@ -7,7 +7,7 @@
     transition: 0.8s;
 }
 
-.anim-text._active {
+.anim-text.active {
     transform: 0;
     opacity: 1;
 
