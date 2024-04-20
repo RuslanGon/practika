@@ -87,18 +87,14 @@ ul {
 justify-content: center;
 display: flex;
 gap: 150px;
+padding-top: 60px;
 }
 
 .item{
     text-align: center;
     border: solid black 3px;
-
 }
 
-.item.active {
-    opacity: 1;
-    transform: translate(0px, 0px);
-    }
 
 
 .desxc {
