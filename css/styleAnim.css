@@ -38,7 +38,6 @@
 
 .text-paragraf {
     font-size: 50px;
-    
 }
 
 .second-title{
@@ -73,12 +72,37 @@ gap: 150px;
 .item{
     text-align: center;
     border: solid black 3px;
-   padding: 15px;
+
 }
+
+.item.active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    }
+
 
 .desxc {
     font-size: 70px;
     color: aqua;
     text-align: center;
     padding-top: 20px;
+}
+
+
+.pes{
+    font-size: 30px;
+    background-color: aqua;
+    padding-top: 30px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.list-pes {
+    transform: translate(120%,0px);
+    transition: all 0.8s ease 0s;
+}
+
+.list-pes.active{
+transform: translate(0px, 0px);
 }
