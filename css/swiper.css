@@ -3,4 +3,23 @@
     height: 750px;
   }
 
+  /* Стрелки */
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: black;
+    font-size: 50px;
+  }
+
+  /* Булеты ( точки снизу) */
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    background-color: black;
+  }
+
+
  
