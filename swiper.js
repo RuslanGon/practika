@@ -44,5 +44,10 @@
    scrollbar: {
     el: ".swiper-scrollbar",
     draggable: true
-   }
+   },
+  //  (чтоб не перетаскивать мышкой )
+   simulateTouch: true,
+  //  (меняется курсор при наведении на картинку )
+   grabCursor: true
+
  });
