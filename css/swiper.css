@@ -3,6 +3,10 @@
     height: 750px;
   }
 
+  .swiper-slide {
+   text-align: center;
+  }
+
   /* Стрелки */
 
   .swiper-button-prev::after,
