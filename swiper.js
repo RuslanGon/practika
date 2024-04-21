@@ -29,14 +29,20 @@
      el: ".swiper-pagination",
      clickable: true,
      dynamicBullets: true,
-     renderBullet: function(index, className){
-      return '<span class="' + className + '">' + (index + 1) + '</span>'
+     renderBullet: function (index, className) {
+       return '<span class="' + className + '">' + (index + 1) + "</span>";
      },
 
-  //    type: 'fraction',
-  //    renderFraction: function(currentClass, totalClass) {
-  //     return ' foto <span class="' + currentClass + '"></span> for <span class="' + totalClass + '"></span>';
-  // }
+     //    type: 'fraction',
+     //    renderFraction: function(currentClass, totalClass) {
+     //     return ' foto <span class="' + currentClass + '"></span> for <span class="' + totalClass + '"></span>';
+     // },
+
+    //  type: 'progressbar',
+
    },
-   
+   scrollbar: {
+    el: ".swiper-scrollbar",
+    draggable: true
+   }
  });
