@@ -64,10 +64,16 @@ new Swiper(".swiper-container", {
      freeMode: true,
 
       //  автопрокрутка
-      autoplay: {
-        delay: 1000,
-        stopOnLastSlide: true,
-        disableOnInteraction: false,
-      }
+      // autoplay: {
+      //   delay: 1000,
+      //   stopOnLastSlide: true,
+      //   disableOnInteraction: false,
+      // },
+
+       //  скорость 
+      //  speed: 1000,
+
+        //  вертикальный скрол
+      // direction: 'vertical',
 
  });
