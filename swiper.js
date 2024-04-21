@@ -58,6 +58,16 @@ new Swiper(".swiper-container", {
     // slidesPerGroup: 2,
 
     //  бесконечная прокрутка
-    loop: true
+    // loop: true,
+
+     //  свободный режим
+     freeMode: true,
+
+      //  автопрокрутка
+      autoplay: {
+        delay: 1000,
+        stopOnLastSlide: true,
+        disableOnInteraction: false,
+      }
 
  });
