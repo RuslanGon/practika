@@ -1,4 +1,4 @@
-// const swiper = new Swiper('.swiper', {
+// const swiper = new Swiper('.image-slider', {
 //     // Optional parameters
 //     direction: 'vertical',
 //     loop: true,
