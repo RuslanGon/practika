@@ -46,8 +46,27 @@
     draggable: true
    },
   //  (чтоб не перетаскивать мышкой )
-   simulateTouch: true,
+   simulateTouch: false,
   //  (меняется курсор при наведении на картинку )
-   grabCursor: true
+   grabCursor: true,
+   //  (переключение при клике на картинку)
+   slideToClickedSlide: true,
+
+   hasNavigation: {
+    watchState: true,
+   },
+
+  //  переключаа\е фотки с помощью клавиатуры
+   keyboard: {
+    enabled: true,
+    onlyInViewport:true,
+    pageUpDown: true
+   },
+   //  переключаа\е фотки с помощью мышки
+   mousewheel: {
+    sensitivity :1
+   }
+
+  
 
  });
