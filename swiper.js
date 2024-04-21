@@ -1,26 +1,4 @@
-// const swiper = new Swiper('.image-slider', {
-//     // Optional parameters
-//     direction: 'vertical',
-//     loop: true,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-//     // And if we need scrollbar
-//     scrollbar: {
-//       el: '.swiper-scrollbar',
-//     },
-//   });
-
- new Swiper(".swiper-container", {
+new Swiper(".swiper-container", {
    navigation: {
      nextEl: ".swiper-button-next",
      prevEl: ".swiper-button-prev",
@@ -65,8 +43,13 @@
    //  переключаа\е фотки с помощью мышки
    mousewheel: {
     sensitivity :1
-   }
+   },
 
-  
+   //  автовысота картинок
+   autoHeight: true,
+
+   //  количество слайдов для показа
+  //  slidesPerView: 2
+
 
  });

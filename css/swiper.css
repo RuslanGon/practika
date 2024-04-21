@@ -42,8 +42,15 @@
   .swiper-scrollbar-drag {
     cursor: pointer;
     background-color: black;
-  
   }
+
+  /* автоширина */
+
+  .swiper-slide {
+    width: auto;
+  }
+
+
 
 
 
