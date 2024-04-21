@@ -29,8 +29,10 @@
      el: ".swiper-pagination",
      clickable: true,
      dynamicBullets: true,
+    //  type: 'fraction'
      renderBullet: function(index, className){
       return '<span class="' + className + '">' + (index + 1) + '</span>'
      }
    },
+   
  });
