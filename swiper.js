@@ -49,7 +49,12 @@ new Swiper(".swiper-container", {
    autoHeight: true,
 
    //  количество слайдов для показа
-  //  slidesPerView: 2
+  //  slidesPerView: 2,
 
+   //  расстояние между слайдами
+   spaceBetween: 15,
+
+    //  околичество пролистуемых слайдов работает вместе с slidesPerView: 2,
+    slidesPerGroup: 2,
 
  });
