@@ -55,6 +55,9 @@ new Swiper(".swiper-container", {
    spaceBetween: 15,
 
     //  околичество пролистуемых слайдов работает вместе с slidesPerView: 2,
-    slidesPerGroup: 2,
+    // slidesPerGroup: 2,
+
+    //  бесконечная прокрутка
+    loop: true
 
  });
