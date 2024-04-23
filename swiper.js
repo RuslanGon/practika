@@ -76,4 +76,11 @@ new Swiper(".swiper-container", {
         //  вертикальный скрол
       // direction: 'vertical',
 
+      //  эфект переклчения слайдов
+
+      // effect: 'fade',
+      // fadeEffect: {
+      //   crossFade: true
+      // },
+
  });
