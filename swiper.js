@@ -83,4 +83,41 @@ new Swiper(".swiper-container", {
       //   crossFade: true
       // },
 
+      // effect: 'flip',
+      // flipEffect: {
+      //   slideShadows: true,
+      //   limitRotation: true
+      // },
+
+      // effect: 'cube',
+      // fadeEffect: {
+      //   slideShadows: true,
+      //   shadow: true,
+      //   shadowOffset: 20,
+      //   shadowScale: 0.94
+      // },
+
+      // дополнение к coverflow
+
+      // effect: 'coverflow',
+      // coverflowEffect: {
+      //   ritate: 20,
+      //   stretch: 50,
+      //   slideShadows: true,
+      // },
+
+       // для адаптива параметры 3 точки преломления
+
+       breakpoints: {
+        320: {
+          slidesPevView: 1
+        },
+        480: {
+          slidesPevView: 2,
+        },
+        992: {
+          slidesPevView: 3,
+        }
+       },
+
  });
