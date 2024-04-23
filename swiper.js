@@ -108,16 +108,35 @@ new Swiper(".swiper-container", {
 
        // для адаптива параметры 3 точки преломления
 
-       breakpoints: {
-        320: {
-          slidesPevView: 1
-        },
-        480: {
-          slidesPevView: 2,
-        },
-        992: {
-          slidesPevView: 3,
-        }
-       },
+      //  breakpoints: {
+      //   320: {
+      //     slidesPevView: 1
+      //   },
+      //   480: {
+      //     slidesPevView: 2,
+      //   },
+      //   992: {
+      //     slidesPevView: 3,
+      //   }
+      //  },
+
+      // для минимизации загрузки картинок
+
+      // preloadImages: false, (это самое главное, остальное можно не писать)
+      // lazy: {
+      //   loadOnTransitionStart: false,
+      //   loadPrevNext: false,
+      // },
+      // watchSlidesProgress: true,
+      // WatchSlideVisibility: trye,
+
+      // для увеличения картинок zoom
+
+      // zoom: {
+      //   maxRation: 5,
+      //   minRation: 1,
+      // },
+
+      
 
  });
